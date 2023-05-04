@@ -1,0 +1,27 @@
+{
+  "name": "maarekhet",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "fmt": "prettier -w ."
+  },
+  "keywords": [],
+  "author": "Max S.",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@solidjs/router": "^0.8.2",
+    "solid-js": "^1.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "prettier": "^2.8.8",
+    "sass": "^1.62.1",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.3",
+    "vite-plugin-solid": "^2.7.0"
+  }
+}

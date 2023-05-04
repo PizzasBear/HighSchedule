@@ -1,0 +1,11 @@
+@import "./vars.scss";
+
+#time-table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+#time-table td,
+#time-table th {
+  padding: 6px;
+}
