@@ -17,7 +17,7 @@ export const timeSlots: { hour: number; start: string; end: string }[] = [
 
 export const teachers = ["Alice", "Bob", "Charly"];
 export const classes = ["a1", "b1", "b2", "c2"];
-export const subjects = ["英語", "Hebrew", "Maths"];
+export const subjects = ["Engrish", "Hebrew", "Maths"];
 
 export type HourSlot = {
   readonly class: string;
@@ -144,7 +144,7 @@ export function rmSlot(slot: HourSlot) {
 }
 
 {
-  const slot = { class: "b2", teacher: "Bob", subject: "英語" };
+  const slot = { class: "b2", teacher: "Bob", subject: "Engrish" };
   addSlot(slot);
   applySlot(0, 2, 6, slot);
   applySlot(0, 2, 5, slot);
